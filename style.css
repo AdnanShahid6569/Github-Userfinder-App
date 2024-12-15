@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.main{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.devfinder{
+    width: 40%;
+    color: white;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.searchDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(22, 18, 42);
+}
+
+.searchDiv input{
+    color: rgb(215, 207, 207);
+    background-color: rgb(22, 18, 42);
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    width: 80%;
+    padding: 7px;
+    font-size: 17px;
+}
+
+.searchDiv button{
+    color: white;
+    background-color: rgb(45, 45, 237);
+    border: none;
+    font-size: 16px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+}
+
+.sectiondiv{
+    width: 40%;
+    height: 350px;
+    margin-top: 8px;
+    background-color: rgb(22, 18, 42);
+    padding: 8px;
+    border-radius: 8px;
+    
+    
+}
+
+/* Section Start */
+
+.nameBio{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    width: 100%;    
+}
+
+.img{
+    display: flex;
+    column-gap: 12px;
+    width: 65%;   
+}
+
+.img img{
+    border-radius: 50%;
+}
+.img h3{
+    
+    color: whitesmoke;
+}
+
+.img h3 .octocat{
+    color: blue;
+    font-size: 15px;
+}
+.headbio{
+    width: 60%;
+
+}
+.headbio .biodata{
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+    width: 100%;
+}
+
+.date{
+    color: whitesmoke;
+}
+
+.date p{
+    text-align: right;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+
+.repos{
+    /* border: 2px solid red; */
+    text-align: center;
+    color:rgb(187, 183, 183);
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.gitLink{
+    display: flex;
+    justify-content: space-around;
+    color:rgb(166, 162, 162);
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+
+}
+.gitLink p .loca{
+    padding-right: 5px;
+}
+.link{
+    color:rgb(166, 162, 162);
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-left: 5px;
+}
